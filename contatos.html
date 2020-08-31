@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+<link href="css/estilo.css" rel="stylesheet">
+<link href= "css/bootstrap.min.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maurílio David Conceição</title>
+    
+    
+</head>
+
+<body>
+    <header>
+        <div class="">
+        <div class="row">
+            <nav class="navbar navbar-fixed-top menu">
+                <section class="container">
+
+                    <img class="logo topo" src="./img/LOGO.png">
+
+                    <button type="button" 
+                    class="navbar-toggle collapsed botao"
+                    data-toggle="collapse"
+                    data-target="#menu"
+                    aria-expanded="false">
+                
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                
+                </button>
+                    
+                    <div class="collapse navbar-collapse " id="menu">
+                        
+                        <ul class="nav nav-bar-nav nav-justified ">
+                        
+                            <li class="logo">  <img class="logo" src="./img/LOGO.png"> </li>
+                            <li><a  href="index.html">Home</a></li>
+                            <li><a  href="sobre.html">Sobre</a></li>
+                            <li><a  href="projetos.html">Projetos</a></li>
+                            <li><a  href="contatos.html">Contatos</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </nav>
+        </div>
+    </div>
+    </header>
+    
+    
+
+    <section id="contato" class="contato">
+        <div class="container">
+          
+            <p><br></p>
+              <h4 >Mande sua mensagem</h4>
+
+              <div class="form">
+                <form method="POST" action="https://formspree.io/maurilio_david@hotmail.com">
+                    
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
+
+                    
+                    <input type="email" name="_replyto" id="email" placeholder="Digite seu e-mail"><br>
+                    
+                    
+                    <input type="number" name="number" id="numero" placeholder="Digite Seu telefone"><br>
+                    
+                    
+                    <textarea name="message"  style="color:black;" placeholder="Escreva sua mensagem:"></textarea><br>
+
+                    <br><input type="submit" id="botao" value="Enviar">
+
+                </form>
+            </div>
+
+            <div class="">
+                  <div class="col-xs-3 col-sm-3">
+                      <figure>
+                          <a href="https://www.linkedin.com/in/mauríliodavid/" target="_blank"><img id="img-contato"  src="./img/linkedin.png" alt="linkedin "></a>
+                      </figure>
+                  </div>
+
+                  <div class="col-xs-3 col-sm-3">
+                      <figure>
+                          <a href="https://github.com/Maurilio-David/MaurilioDavid" target="_blank"> <img  id="img-contato" src="./img/github-sign.png"  alt=">Git"></a>
+                      </figure> 
+                  </div>
+
+                  <div class="col-xs-3 col-sm-3">
+                     <figure>
+                          <a href="mailto:maurilio_david@hotmail.com" target="_blank"> <img  id="img-contato"  src="./img/email.png" alt="Email"></a>
+                      </figure>
+                  </div>
+
+                  <div class="col-xs-3 col-sm-3 ">
+                      <figure>
+                          <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5571992197535" target="_blank"><img id="img-contato"  src="./img/telefone.png" alt=">Git"></a>
+                      </figure>
+                  </div>
+            </div>
+            
+      </div>
+  </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jsscript.js"></script>
+
+</body>
+</html>

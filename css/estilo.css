@@ -1,0 +1,232 @@
+/*Configuração mobile página principal*/
+
+/*Menu - mobile*/
+
+header{
+  display: block;
+  font-size: 2rem;
+  min-width: 100vw;
+}
+
+img.logo{
+  text-align: initial;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  width: 120px;
+  height: 50px;
+  display: inline-block;
+}
+
+.menu{
+  background:#e4e5e7 ;
+}
+
+.menu li a{
+  color: #4764e6;
+}
+@media (max-width: 760px){
+  .menu li.logo{
+    display: none;
+  }
+}
+button.botao {
+  border-color: #4764e6;
+}
+
+span {
+  background-color: #4764e6;
+}
+
+/* Configuração mobile página home */
+
+div.Topo {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+div.container{
+  background-color:#4764e6;
+  text-align: center;
+  color: #e4e5e7;
+  font-family: Nunito;
+}
+
+div.container img{
+  margin-top: 7em;
+  width: 200px;
+  height: 200px;
+}
+div.tec img{
+  margin-top: 2em;
+  margin-bottom: 1em;
+  width: auto;
+  height: 50px;
+}
+
+/* Configuração mobile página sobre */
+
+div.teste{
+  margin-top: 7em;
+  border-color: #e4e5e7;
+  background-color: #4764e6;
+}
+
+/* Configuração mobile página projetos */
+
+section.portfolio{
+  margin-top: 4em;
+  background-color: #4764e6;
+  color: #e4e5e7;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+section.portfolio img{
+  text-align: center;
+  margin-top: 1em;
+  display: inline-flex;
+  width: 300px;
+  height: 300px;
+}
+
+section.portfolio p,
+section.portfolio figcaption{
+  margin-bottom: 0.5em;
+}
+
+/* Configuração mobile página contatos */
+
+section.contato{
+  margin-top: 4em;
+}
+div.form{
+  display: block;
+  text-align: center;
+}
+
+
+div.form input{
+  width: 80vw;
+  color: black;
+  margin-bottom: 1em;
+  
+}
+
+div.form input#text{
+  height: 30vh;
+}
+
+textarea{
+  width:80vw; height:30vh;
+}
+
+div.form input#botao{
+  color: #4764e6;
+}
+
+section.contato img{
+  width: 70px;
+  height: 70px;
+  margin-bottom: 1em;
+}
+
+/* Configuração tablet */
+@media(min-width: 760px){
+  
+  /* Configuração tablet MENU */
+  .menu li a{
+    font-size: 1.5em;
+  }
+
+  header ul{
+    /*display: block;*/
+    font-size: 1.5rem;
+    
+  }
+
+  img.topo{
+    display: none;
+  }
+
+  img.logo{
+    text-align: initial;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    width: 150px;
+    height: 80px;
+  }
+ /* Configuração tablet página home */
+  div.Topo{
+    margin-top: 3em;
+  }
+
+  div.container img{
+    width: 400px;
+    height: 400px;
+  }
+
+  div.tec img{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    margin-left: 5vw;
+    width: 180px;
+    height: 180px;
+  }
+/* Configuração tablet página sobre */
+  section.sobre{
+    background-color: #4764e6;
+  }  
+  article{
+      min-height: 100vh;
+      font-size: 1.5em;
+    }
+
+  /* Configuração tablet página Projetos */
+  section.portfolio{
+    min-height: 100vh;
+  }
+  section.portfolio img{
+    text-align: center;
+    margin-top: 1em;
+    width: 300px;
+    height: 300px;
+  }
+
+  div.portfolio{
+    background-color: #4764e6;
+  }
+
+  /* Configuração tablet página Contatos */
+  section.contato{
+    background-color: #4764e6;
+    min-height: 100vh;
+    margin-top: 6em;
+    text-align: center;
+  }
+
+  section.contato img{
+    width: 80px;
+    height: 80px;
+    margin: 2em;
+  }
+}
+
+@media (min-width: 1200px){
+  section.portfolio img{
+    text-align: center;
+    margin-top: 1em;
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 1300px){
+  div.form input{
+    width: 60vw;
+  }
+
+  textarea{
+    width:60vw; height:30vh;
+  }
+
+  
+}
