@@ -227,6 +227,14 @@ section.contato img{
   textarea{
     width:60vw; height:30vh;
   }
+}
 
-  
+footer#rodape {
+  border-top: 1px solid #4764e6;
+  clear: both;
+  background-color: #e4e5e7;
+}
+footer#rodape p {
+  text-align: center;
+  color: #4764e6;
 }
